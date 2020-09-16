@@ -16,7 +16,7 @@
     h1, h2, h3{
       font-family: Montserrat, serif;
     }
-    .small{
+    .center{
       position: relative;
       margin-top: 5px;
       width: 350px;
@@ -25,11 +25,16 @@
       h1 {
         font-size: x-large;
       }
-      .small{
+      .disp{
+        display: none;
+      }
+      .center{
         position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;       
         width: 50%;
-        margin-left: 15%;
-        margin-top: 10px;
       }
     }
     a{
@@ -66,7 +71,7 @@
   <header>
     <nav class="nav-wrapper deep-orange">
       <div class="container">
-        <img src="img/groslogogo.png" alt="" class="small log">
+        <img src="img/groslogogo.png" alt="" class="center log">
         <a href="#" class="sidenav-trigger" data-target="mobile-menu">
           <i class="material-icons">menu</i>
         </a>
@@ -86,12 +91,8 @@
 	</nav>
 		<style>
       .btnb{
-        margin-top: 50px;
+        margin-top: 150px;
         margin-left: 33%;
-      }
-      .center{
-        margin-left: 40%;
-        margin-bottom: 50px;
       }
       .bas{
         margin-top: 60px;
@@ -328,14 +329,14 @@
         </a>
     </div>
 
-    <div class="col s12 l4">
+    <div class="col s12 l4 disp">
       <img src="img/colors.png" alt="color">
     </div>
 
       <div class="col s12 l4">
         <i class="large material-icons center blue-text">mail</i>
           <a href = "mailto: contact@cyberauxi.fr" class="waves-effect waves-light btn-large deep-orange btnb">
-            Nous écrire
+            Nous écrire 
           </a>
       </div>
     </div>
