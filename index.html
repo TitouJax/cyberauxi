@@ -23,7 +23,10 @@
     }
     @media screen and (max-width: 670px){
       h1 {
-        font-size: x-large;
+        font-size: xx-large;
+      }
+      .centeric{
+        margin-left: 10px;
       }
       .disp{
         display: none;
@@ -35,7 +38,7 @@
         right: 0;
         margin-left: auto;
         margin-right: auto;       
-        width: 50%;
+        width: 65%;
       }
     }
     a{
@@ -91,9 +94,15 @@
       </div>
 	</nav>
 		<style>
+      .centeric{
+        margin-left: 47%;
+      }
       .btnb{
-        margin-top: 150px;
-        margin-left: 33%;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-left: 40%;
+        margin-top: 50px;
       }
       .bas{
         margin-top: 60px;
@@ -106,6 +115,15 @@
 				font-size: 130%;
         font-weight: bold;
 			}
+      @media screen and (max-width: 670px){
+      .centeric{
+        margin-left: 45%;
+      }
+      .btnb{
+        margin-top: 40px;
+        margin-left: 38%;
+      }
+      }
 		</style>
 		<div class="container">
 			<h1 class="center-align deep-orange-text">
@@ -324,7 +342,7 @@
      <div class="row">
        
       <div class="col s12 l4">
-        <i class="large material-icons center blue-text">call</i>
+        <i class="large material-icons centeric blue-text">call</i>
         <a href="tel:07 08 08 08 08" class="waves-effect waves-light btn-large deep-orange btnb">
           Nous appeler
         </a>
@@ -335,7 +353,7 @@
     </div>
 
       <div class="col s12 l4">
-        <i class="large material-icons center blue-text">mail</i>
+        <i class="large material-icons centeric blue-text">mail</i>
           <a href = "mailto: contact@cyberauxi.fr" class="waves-effect waves-light btn-large deep-orange btnb">
             Nous écrire 
           </a>
